@@ -1,0 +1,107 @@
+.site-header{
+    background-color:transparent;
+    position:fixed;
+    width:100vw;
+    min-width:300px;
+    transition:$transition-color;
+    z-index:1000;
+
+    &.scrolled{
+        background-color:$color-primary;
+        color:$text-primary;
+        border-bottom:1px solid $br-color;
+    }
+    .header-container{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        width: auto;
+        margin: 0 auto;
+        padding:0 1rem;
+
+        .navigation-container{
+
+            .menu-btn{
+                display:none;
+                height:36px;
+                width:36px;
+                padding:0;
+                background-color: $color-invert;
+                border:none;
+                border-radius:12px;
+
+                svg{
+                    margin:auto;
+                    height:24px;
+                    width:24px;
+                    color:$text-invert;
+                }
+            }
+
+            .menu-container{
+                display:inline-block;
+                
+
+                ul.nav-link-list{
+                    list-style:none;
+                    display:flex;
+                    gap:1rem;
+                    padding:0;
+                    li{
+                        a.nav-link{
+                            color:inherit;
+                            text-decoration: none;
+                            font-weight:500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width:$viewport-md){
+    .site-header{
+
+        .header-container{
+            position:relative;
+            height:50px;
+
+            .navigation-container{
+
+                .menu-btn{
+                    display:flex;
+                    align-items: center;
+                }
+                .menu-container{
+                    position:absolute;
+                    top:60px;
+                    left:10%;
+                    padding:1rem 0;
+                    transform:scaleY(0);
+                    transition:transform 0.2s;
+                    width:80%;
+                    transform-origin: top;
+                    background-color: $color-primary;
+                    border-radius:12px;
+                    border:1px solid $br-color;
+
+                    &.collapsed{
+                        transform:scaleY(1);
+                    }
+
+                    ul.nav-link-list{
+                        display:flex;
+                        flex-direction: column;
+                        gap:1rem;
+                        li{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
