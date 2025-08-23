@@ -1,4 +1,11 @@
 section{
     min-height:50vh;
-    padding: 4rem;
+    padding: 4rem 1rem;
+    position:relative;
+}
+
+.container{
+    width:auto;
+    max-width:$viewport-lg;
+    margin:0 auto;
 }

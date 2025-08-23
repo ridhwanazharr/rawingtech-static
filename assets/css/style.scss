@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import '_variables.scss';
+@import '_helpers.scss';
 @import '_header.scss';
 @import '_page.scss';
 @import '_buttons.scss';
 @import '_hero.scss';
+@import '_testimonial.scss';
+@import '_service.scss';
 
 html{
-    font-size:28px;
+    font-size:32px;
     body{
         font-family: "Inter", sans-serif;
         margin:0;
@@ -16,21 +19,15 @@ html{
     }
 }
 
-@media(max-width:1200px){
+@media(max-width:$viewport-lg){
     html{
         font-size:24px;
     }
 }
 
-@media(max-width:960px){
+@media(max-width:$viewport-md){
     html{
         font-size:20px;
-    }
-}
-
-@media(max-width:720px){
-    html{
-        font-size:18px;
     }
 }
 

@@ -15,17 +15,23 @@
         display:flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1200px;
+        max-width: $viewport-lg;
         width: auto;
         margin: 0 auto;
-        padding:0 1rem;
+        padding:0.25rem 1rem;
+
+        .site-branding{
+            h2{
+                margin:0;
+            }
+        }
 
         .navigation-container{
 
             .menu-btn{
                 display:none;
-                height:36px;
-                width:36px;
+                height:2rem;
+                width:2rem;
                 padding:0;
                 background-color: $color-invert;
                 border:none;
@@ -33,8 +39,8 @@
 
                 svg{
                     margin:auto;
-                    height:24px;
-                    width:24px;
+                    height:1.5rem;
+                    width:1.5rem;
                     color:$text-invert;
                 }
             }
@@ -48,11 +54,12 @@
                     display:flex;
                     gap:1rem;
                     padding:0;
+                    margin:0;
                     li{
                         a.nav-link{
                             color:inherit;
                             text-decoration: none;
-                            font-weight:500;
+                            font-weight:400;
                         }
                     }
                 }
@@ -100,6 +107,14 @@
                             text-align: center;
                         }
                     }
+                }
+            }
+        }
+
+        &.scrolled{
+            .navigation-container{
+                .menu-container{
+                    border-radius: 0 0 12px 12px;
                 }
             }
         }

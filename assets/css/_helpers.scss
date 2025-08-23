@@ -1,0 +1,22 @@
+.fs-h1{
+    font-size: 2rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-invert{
+    color:$text-invert;
+    background-color: $color-invert;
+}
+
+.bg-secondary{
+    color:$text-primary;
+    background-color: $color-secondary;
+}
+
+.bg-tertiary{
+    color:$text-primary;
+    background-color: $color-tertiary;
+}

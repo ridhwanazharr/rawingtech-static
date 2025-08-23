@@ -1,0 +1,47 @@
+.testimonials{
+    background-color: $color-tertiary;
+    color:$text-primary;
+
+    .title{
+        width: fit-content;
+        margin: 1rem auto;
+        position: relative;
+        margin:2rem auto;
+        svg{
+            position:absolute;
+            top:-2rem;
+            left:-2rem;
+        }
+        span{
+            position:relative;
+            font-weight:700;
+        }
+    }
+    .card-container{
+        display:flex;
+        justify-content: center;
+
+        .testimonial-card{
+            background-color:$color-primary;
+            color:$text-primary;
+            font-weight:200;
+            padding: 0.5rem 1rem;
+            border-radius:12px;
+            border:1px solid $br-color;
+            position:relative;
+            width:50%;
+            blockquote{
+                margin:1rem 0;
+            }
+            i{
+                font-size:0.8rem;
+            }
+            svg{
+                position:absolute;
+                top:-40px;
+                left:0;
+                color:$br-color
+            }
+        }
+    }
+}
