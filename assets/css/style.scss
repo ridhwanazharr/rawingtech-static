@@ -4,6 +4,8 @@
 @import '_header.scss';
 @import '_page.scss';
 @import '_buttons.scss';
+@import '_accordion.scss';
+@import '_contact-form.scss';
 @import '_hero.scss';
 @import '_testimonial.scss';
 @import '_service.scss';
@@ -28,6 +30,12 @@ html{
 @media(max-width:$viewport-md){
     html{
         font-size:20px;
+    }
+}
+
+@media(max-width:$viewport-sm){
+    html{
+        font-size:18px;
     }
 }
 

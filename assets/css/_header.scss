@@ -85,18 +85,25 @@
                 .menu-container{
                     position:absolute;
                     top:60px;
-                    left:10%;
-                    padding:1rem 0;
-                    transform:scaleY(0);
-                    transition:transform 0.2s;
-                    width:80%;
+                    left:50%;
+                    padding:0;
+                    overflow:hidden;
+                    transform:translateX(-50%);
+                    transition:max-height 0.2s, padding 0.2s, border 0.2s;
+                    max-height:0;
                     transform-origin: top;
                     background-color: $color-primary;
                     border-radius:12px;
-                    border:1px solid $br-color;
+                    border:none;
+                    
+                    .nav-link{
+                        font-weight:700;
+                    }
 
                     &.collapsed{
-                        transform:scaleY(1);
+                        max-height:100vh;
+                        padding:1rem;
+                        border:1px solid $br-color;
                     }
 
                     ul.nav-link-list{

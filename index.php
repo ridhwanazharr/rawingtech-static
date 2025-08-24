@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rawingtech</title>
     <link rel="preload" href="./assets/css/style.css" as="style" />
-    <link rel="preload" href="./assets/js/navigation.js" as="script" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/navigation.js" defer></script> 
 
     <!--Meta Properties---->
     <meta property="og:title" content="Rawingtech - Web Development for Small Business">
@@ -27,7 +25,7 @@
                     <h1>Websites made simple for your small business.</h1>
                     <p>I help local service, photographer, cafés, and small brands get online with fast, clean websites that just work</p>
                     <div class="btn-group">
-                        <button class="btn btn-hero">
+                        <button aria-label="Contact" class="btn btn-hero">
                             Work with Me
                         </button>
                         <button class="btn btn-outline">
@@ -105,15 +103,137 @@
         </section>
 
         <section id="faq">
-            <h2>Frequently asked questions</h2>
-            <details>
-                <summary>What does you do</summary>
-                <p>We do stuff you dont</p>
-            </details>
+            <div class="container">
+                <h2>Frequently asked questions</h2>
+
+                <div class="accordion">
+                    <div class="acc-item show" aria-label="Question 1">
+                        <button class="acc-head" aria-expanded="true" aria-controls="answer-1">
+                            What kind of websites do you build?
+                        </button>
+                        <div id="answer-1" class="acc-content">
+                            <p>
+                                I specialize in clean, fast, and functional websites for small businesses, like restaurants, catering services, local contractors, photographers, and more. From a static website (like a professional landing page or portfolio) to a simple CRM/CMS system (so you can update menus, services, or photos yourself), I keep things straightforward and effective.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="acc-item" aria-label="Question 2">
+                        <button class="acc-head" aria-expanded="true" aria-controls="answer-2">
+                            Do I need a subscription, or can I just pay once?
+                        </button>
+                        <div id="answer-2" class="acc-content">
+                            <p>
+                                You choose what fits you best :<br>
+                                <ul>
+                                    <li>
+                                        One-time purchase : pay once and the site is yours, no strings attached.
+                                    </li>
+                                    <li>
+                                        Subscription : perfect if you want ongoing support, updates, or hosting bundled in.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="acc-item" aria-label="Question 3">
+                        <button class="acc-head" aria-expanded="true" aria-controls="answer-3">
+                            How much does a website cost?
+                        </button>
+                        <div id="answer-3" class="acc-content">
+                            <p>
+                                I keep pricing transparent and affordable. A one-time purchase starts at a small investment (often less than what you'd spend on ads in a week) and subscriptions are budget-friendly. The final price depends on features (static page vs. CMS, extra integrations, etc.), but I'll always give you a clear quote before we start.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="acc-item" aria-label="Question 4">
+                        <button class="acc-head" aria-expanded="true" aria-controls="answer-4">
+                            How long will it take to get my website live?
+                        </button>
+                        <div id="answer-4" class="acc-content">
+                            <p>
+                                For a basic static site, usually 3-7 days.<br>
+                                For a CMS/CRM project, typically 1-3 weeks depending on the features you need. I'll give you a clear timeline upfront so you can plan.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="acc-item" aria-label="Question 5">
+                        <button class="acc-head" aria-expanded="true" aria-controls="answer-5">
+                            Will my website show up on Google?
+                        </button>
+                        <div id="answer-5" class="acc-content">
+                            <p>
+                                Yes! Every site comes with onsite SEO optimization (good page structure, mobile-friendly design, proper meta tags, etc.). This gives you a strong foundation to appear in Google search results. If you want deeper SEO strategy (like content, backlinks, and ongoing optimization), that's something we can add later too.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="acc-item" aria-label="Question 6">
+                        <button class="acc-head" aria-expanded="true" aria-controls="answer-6">
+                            Do I need to know tech to update my site?
+                        </button>
+                        <div id="answer-6" class="acc-content">
+                            <p>
+                                Not at all. If you choose a CMS/CRM option, I'll make sure it's simple enough for non-tech users (like updating a menu, gallery, or service list in just a few clicks). For static sites, you can always reach out for updates, or I can offer a subscription that covers content changes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="acc-item" aria-label="Question 7">
+                        <button class="acc-head" aria-expanded="true" aria-controls="answer-7">
+                            What if I need help after the site is finished?
+                        </button>
+                        <div id="answer-7" class="acc-content">
+                            <p>
+                                I've got you. You can either :<br>
+                                <ul>
+                                    <li>
+                                        Reach out for one-time fixes or updates, or
+                                    </li>
+                                    <li>
+                                        Choose a subscription plan that covers maintenance, updates, backups, and peace of mind.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="acc-item" aria-label="Question 8">
+                        <button class="acc-head" aria-expanded="true" aria-controls="answer-8">
+                            Why not just use a DIY website builder?
+                        </button>
+                        <div id="answer-8" class="acc-content">
+                            <p>
+                                Great question! Builders like Wix or Squarespace seem cheap at first, but :<br>
+                                ~ They often have ongoing hidden costs.<br>
+                                ~ They're limited in design & performance.<br>
+                                ~ SEO is usually weaker.<br>
+                                With me, you get a custom website built around your business needs, fast, optimized, and owned by you.
+                            </p>
+                        </div>
+                    </div>
+            </div>
         </section>
 
         <section id="contact">
-            <h2>Contact Us</h2>
+            <div class="container">
+                <h2>Get Started</h2>
+                <p aria-label="Form info" class="form-info">please fill the required forms below and i'll reply to you as soon as possible</p>
+                <div class="contact-form" role="Contact Form">
+                    <form action="">
+                        <label for="name">Hello, my name is </label>
+                        <input id="name" type="text" placeholder="your name">.<br>
+                        <label for="email">you can contact me at </label><input type="email" placeholder="email"><br>
+                        <label for="phone">or at </label><input id="number" type="number" placeholder="phone number">,<br>
+                        <label for="service">and i need a </label>
+                        <select id="service" name="" id="">
+                            <option value=""><span class="placeholder">choose service</span></option>
+                        </select>
+                        <label for="business-type"> for </label><input type="text" id="business-type" placeholder="your business">,
+                        <br>
+                        <textarea name="" id="" placeholder="tell me the details" maxlength="1200"></textarea>
+                        <br>
+                        thats it, thank you.<br>
+                        <button type="submit" class="btn btn-hero">Get a quote</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -122,5 +242,9 @@
             &copy; <?= date("Y") ?> - Rawingtech
         </div>
    </footer>
+
+   <script src="./assets/js/jquery-3.7.1.min.js" defer></script> 
+   <script src="./assets/js/navigation.js" defer></script>
+   <script src="./assets/js/script.js" defer></script>  
 </body>
 </html>

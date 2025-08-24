@@ -21,6 +21,9 @@
                     <li>
                         <a href="#" class="nav-link">Contact</a>
                     </li>
+                    <li>
+                        <a href="#" class="btn btn-hero">Get Started</a>
+                    </li>
                 </ul>
             </div>
         </nav>
