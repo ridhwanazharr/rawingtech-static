@@ -22,7 +22,7 @@
                         <a href="#" class="nav-link">Contact</a>
                     </li>
                     <li>
-                        <a href="#" class="btn btn-hero">Get Started</a>
+                        <button href="#" class="btn btn-hero">Get Started</button>
                     </li>
                 </ul>
             </div>

@@ -217,20 +217,28 @@
                 <p aria-label="Form info" class="form-info">please fill the required forms below and i'll reply to you as soon as possible</p>
                 <div class="contact-form" role="Contact Form">
                     <form action="">
-                        <label for="name">Hello, my name is </label>
-                        <input id="name" type="text" placeholder="your name">.<br>
-                        <label for="email">you can contact me at </label><input type="email" placeholder="email"><br>
-                        <label for="phone">or at </label><input id="number" type="number" placeholder="phone number">,<br>
-                        <label for="service">and i need a </label>
-                        <select id="service" name="" id="">
-                            <option value=""><span class="placeholder">choose service</span></option>
-                        </select>
-                        <label for="business-type"> for </label><input type="text" id="business-type" placeholder="your business">,
-                        <br>
-                        <textarea name="" id="" placeholder="tell me the details" maxlength="1200"></textarea>
-                        <br>
-                        thats it, thank you.<br>
-                        <button type="submit" class="btn btn-hero">Get a quote</button>
+                        <label for="name">Hi, my name is </label>
+                        <input id="name" type="text" placeholder="Your name">.<br>
+
+                        <label for="email">You can reach me at </label>
+                        <input id="email" type="email" placeholder="Your email"><br>
+
+                        <label for="number">or by phone at </label>
+                        <input id="number" type="tel" placeholder="Phone number">.<br>
+
+                        <label for="service">I'm interested in </label>
+                        <select id="service" name="service">
+                            <option value="" disabled selected>Choose a service</option>
+                        </select><br>
+
+                        <label for="business-type"> for my </label>
+                        <input type="text" id="business-type" placeholder="Your business">.<br>
+
+                        <label for="details">Here are some details: </label><br>
+                        <textarea id="details" placeholder="Tell me more..." maxlength="1200"></textarea><br>
+
+                        That's all, thank you!<br>
+                        <button type="submit" class="btn btn-hero">Get a Quote</button>
                     </form>
                 </div>
             </div>
