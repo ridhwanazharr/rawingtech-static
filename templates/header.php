@@ -1,7 +1,9 @@
 <header class="site-header" aria-label="Main navigation">
     <div class="header-container">
-        <div class="site-branding">    
-            <h2>Logo</h2>
+        <div class="site-branding">
+            <a href="./" class="text-link" aria-label="Back to Homepage">
+                <h2>Rawingtech</h2>
+            </a>    
         </div>
         <nav class="navigation-container">
             <button class="menu-btn" id="nav-btn" aria-label="Menu Toggle">
@@ -10,20 +12,18 @@
             <div class="menu-container" id="menu-container">
                 <ul class="nav-link-list">
                     <li>
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#" class="text-link">About</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link">Portfolio</a>
+                        <a href="#" class="text-link">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link">Pricing</a>
+                        <a href="#" class="text-link">Pricing</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#" class="text-link">Contact</a>
                     </li>
-                    <li>
-                        <button href="#" class="btn btn-hero">Get Started</button>
-                    </li>
+                    <button href="#" class="btn btn-hero">Get Started</button>
                 </ul>
             </div>
         </nav>

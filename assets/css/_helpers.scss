@@ -1,5 +1,25 @@
 .fs-h1{
-    font-size: 2rem;
+    font-size: 2rem!important;
+}
+
+.fs-lg-sm{
+    @media(max-width:$viewport-lg){
+        font-size:0.8rem!important;
+    }
+}
+
+.fs-sm{
+    font-size:0.8rem!important;
+}
+
+.fs-xs{
+    font-size:0.6rem!important;
+}
+
+.fs-lg-xs{
+    @media(max-width:$viewport-lg){
+        font-size:0.6rem!important;
+    }
 }
 
 .text-center{
@@ -11,6 +31,11 @@
     background-color: $color-invert;
 }
 
+.bg-dark{
+    background-color: #1d1d1d;
+    color:$color-primary;
+}
+
 .bg-secondary{
     color:$text-primary;
     background-color: $color-secondary;
@@ -19,4 +44,8 @@
 .bg-tertiary{
     color:$text-primary;
     background-color: $color-tertiary;
+}
+
+.bg-hero{
+    background-color: #fcef36;
 }

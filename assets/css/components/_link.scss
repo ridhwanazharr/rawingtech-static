@@ -1,0 +1,13 @@
+.text-link{
+    text-decoration:none;
+    color:inherit;
+    transition:$transition-color;
+
+    &:hover{
+        color:$color-accent-2;
+    }
+
+    svg{
+        color:inherit;
+    }
+}

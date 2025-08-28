@@ -1,0 +1,44 @@
+//FAQ DIVIDER
+
+.custom-shape-divider-top-1756268948 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1756268948 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 59px;
+}
+
+.custom-shape-divider-top-1756268948 .shape-fill {
+    fill: #FCEF36;
+}
+
+//TESTIMONIAL DIVIDER
+
+.custom-shape-divider-bottom-1756269091 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1756269091 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1756269091 .shape-fill {
+    fill: #FCEF36;
+}

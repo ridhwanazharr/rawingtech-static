@@ -1,0 +1,33 @@
+.portfolio-card{
+    width:auto;
+    border-radius:12px;
+    border:1px solid $br-color;
+    overflow:hidden;
+    max-width:$viewport-sm;
+    margin:0 auto;
+    background-color:$color-primary;
+    color:$text-primary;
+
+    .card-img{
+        width:100%;
+        height:auto;
+        object-fit:cover;
+    }
+
+    .card-body{
+        padding:0.5rem;
+
+        .card-title{
+            font-weight:700;
+        }
+
+        p{
+            margin:0.5rem 0;
+        }
+
+        .btn{
+            margin-top:1rem;
+        }
+    }
+
+}

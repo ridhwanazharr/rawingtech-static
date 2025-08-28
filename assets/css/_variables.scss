@@ -16,9 +16,13 @@ $text-invert:#fcfcfc;
 
 $br-color:#808080;
 
-$transition-color:background-color 0.2s, color 0.2s;
+$transition-color:background 0.2s, background-color 0.2s, color 0.2s;
 
-$viewport-lg:1366px;
+$viewport-xl:1600px;
+$viewport-lg:1280px;
 $viewport-md:960px;
 $viewport-sm:720px;
 $viewport-xs:480px;
+
+$base-font-family:'Inter', sans-serif;
+

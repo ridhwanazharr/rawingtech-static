@@ -1,0 +1,29 @@
+section{
+    min-height:50vh;
+    padding: 2rem 1rem;
+    position:relative;
+}
+
+.container{
+    width:auto;
+    max-width:$viewport-lg;
+    margin:0 auto;
+}
+
+.container-md{
+    width:auto;
+    max-width:$viewport-md;
+    margin:0 auto;
+}
+
+.container-sm{
+    width:auto;
+    max-width:$viewport-sm;
+    margin:0 auto;
+}
+
+.container-xl{
+    width:auto;
+    max-width:$viewport-xl;
+    margin:0 auto;
+}

@@ -1,0 +1,110 @@
+.contact-form{
+    width:100%;
+    min-height:200px;
+    max-width:$viewport-md;
+
+    #website,#message{
+        display:none;
+    }
+
+    .form-heading{
+        font-size:inherit;
+        margin:1rem 0;
+    }
+
+    .input-row{
+        display:flex;
+        flex-direction:column;
+        margin:0.5rem 0;
+        gap:0.25rem;
+        flex-wrap: wrap;
+
+        label{
+            flex: 0 0 auto;
+            white-space:nowrap;
+            font-weight:500;
+        }
+
+        input,select{
+            border:none;
+            border-bottom:1px solid $br-color;
+            flex: 1;
+            font-size:1rem;
+            background-color:inherit;
+            color:inherit;
+
+            &:focus{
+                outline:none;
+                border-bottom: 1px solid $color-accent-1;
+            }
+
+            &::placeholder{
+                color:$br-color;
+            }
+        }
+
+        textarea{
+            margin-top:0.25rem;
+            border:none;
+            font-size:1rem;
+            padding:0;
+            resize:vertical;
+            flex: 1;
+            color:inherit;
+            border-bottom:1px solid $br-color;
+            font-family:$base-font-family;
+            &:focus{
+                outline:none;
+                border-bottom:1px solid $color-accent-1;
+            }
+        }
+    }
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    option{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding:0 0.25rem;
+        background-color: $color-primary!important;
+        color:$text-primary!important;
+        &:hover{
+          background-color: $color-accent-1!important;  
+        }
+    }
+}
+
+.message-container{
+    padding:2rem 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .alert{
+        padding:1rem;
+        border-radius:12px;
+        border:1px solid $br-color;
+        width:100%;
+
+        &.error{
+            background-color: #ff00007e;
+        }
+
+        &.success{
+            background-color: #539c0088;
+        }
+    }
+}
+
+@media(max-width:$viewport-md){
+    .contact-form{
+        .input-row{
+            display:flex;
+            flex-direction: column;
+            gap:0.5rem;
+        }
+    }
+}

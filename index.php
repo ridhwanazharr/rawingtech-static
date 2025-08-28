@@ -87,7 +87,70 @@
             </div>
         </section>
 
-        <section id="testimonial" class="testimonials">
+        <section id="projects" class="bg-secondary">
+            <div class="container">
+                <h2 class="fs-h1">Portfolio</h2>
+                <p>Some of example of my works.</p>
+                <div class="flex-row md-col">
+                    <div class="flex-col">
+                        <div class="portfolio-card">
+                            <img src="./assets/img/Thumbnail Restaurant 2.jpg" loading="lazy" class="card-img" alt="Preview of example website">
+                            <div class="card-body">
+                                <p class="card-title">Maison Lumiere</p>
+                                <p class="card-desc fs-sm">Portfolio website for photographer, designer, or visual artist to showcase their work</p>
+                                <button href="#" class="btn btn-sm btn-outline fs-sm" aria-label="Link to Visit Website">
+                                    Visit Website
+                                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 3V2.5H2.5V3H3ZM12.6464 13.3536C12.8417 13.5488 13.1583 13.5488 13.3536 13.3536C13.5488 13.1583 13.5488 12.8417 13.3536 12.6464L12.6464 13.3536ZM3.5 11V3H2.5V11H3.5ZM3 3.5H11V2.5H3V3.5ZM2.64645 3.35355L12.6464 13.3536L13.3536 12.6464L3.35355 2.64645L2.64645 3.35355Z" fill="currentColor"></path> <path d="M4 15V15C4 16.8692 4 17.8038 4.40192 18.5C4.66523 18.9561 5.04394 19.3348 5.5 19.5981C6.19615 20 7.13077 20 9 20H14C16.8284 20 18.2426 20 19.1213 19.1213C20 18.2426 20 16.8284 20 14V9C20 7.13077 20 6.19615 19.5981 5.5C19.3348 5.04394 18.9561 4.66523 18.5 4.40192C17.8038 4 16.8692 4 15 4V4" stroke="currentColor" stroke-linecap="round"></path> </g></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col">
+                        <div class="portfolio-card">
+                            <img src="./assets/img/Thumbnail Restaurant 2.jpg" loading="lazy" class="card-img" alt="Preview of example website">
+                            <div class="card-body">
+                                <p class="card-title">Maison Lumiere</p>
+                                <p class="card-desc fs-sm">Portfolio website for photographer, designer, or visual artist to showcase their work</p>
+                                <button href="#" class="btn btn-sm btn-outline fs-sm" aria-label="Link to Visit Website">
+                                    Visit Website
+                                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 3V2.5H2.5V3H3ZM12.6464 13.3536C12.8417 13.5488 13.1583 13.5488 13.3536 13.3536C13.5488 13.1583 13.5488 12.8417 13.3536 12.6464L12.6464 13.3536ZM3.5 11V3H2.5V11H3.5ZM3 3.5H11V2.5H3V3.5ZM2.64645 3.35355L12.6464 13.3536L13.3536 12.6464L3.35355 2.64645L2.64645 3.35355Z" fill="currentColor"></path> <path d="M4 15V15C4 16.8692 4 17.8038 4.40192 18.5C4.66523 18.9561 5.04394 19.3348 5.5 19.5981C6.19615 20 7.13077 20 9 20H14C16.8284 20 18.2426 20 19.1213 19.1213C20 18.2426 20 16.8284 20 14V9C20 7.13077 20 6.19615 19.5981 5.5C19.3348 5.04394 18.9561 4.66523 18.5 4.40192C17.8038 4 16.8692 4 15 4V4" stroke="currentColor" stroke-linecap="round"></path> </g></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-row md-col">
+                    <div class="flex-col">
+                        <div class="portfolio-card">
+                            <img src="./assets/img/Thumbnail Restaurant 2.jpg" loading="lazy" class="card-img" alt="Preview of example website">
+                            <div class="card-body">
+                                <p class="card-title">Maison Lumiere</p>
+                                <p class="card-desc fs-sm">Portfolio website for photographer, designer, or visual artist to showcase their work</p>
+                                <button href="#" class="btn btn-sm btn-outline fs-sm" aria-label="Link to Visit Website">
+                                    Visit Website
+                                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 3V2.5H2.5V3H3ZM12.6464 13.3536C12.8417 13.5488 13.1583 13.5488 13.3536 13.3536C13.5488 13.1583 13.5488 12.8417 13.3536 12.6464L12.6464 13.3536ZM3.5 11V3H2.5V11H3.5ZM3 3.5H11V2.5H3V3.5ZM2.64645 3.35355L12.6464 13.3536L13.3536 12.6464L3.35355 2.64645L2.64645 3.35355Z" fill="currentColor"></path> <path d="M4 15V15C4 16.8692 4 17.8038 4.40192 18.5C4.66523 18.9561 5.04394 19.3348 5.5 19.5981C6.19615 20 7.13077 20 9 20H14C16.8284 20 18.2426 20 19.1213 19.1213C20 18.2426 20 16.8284 20 14V9C20 7.13077 20 6.19615 19.5981 5.5C19.3348 5.04394 18.9561 4.66523 18.5 4.40192C17.8038 4 16.8692 4 15 4V4" stroke="currentColor" stroke-linecap="round"></path> </g></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col">
+                        <div class="portfolio-card">
+                            <img src="./assets/img/Thumbnail Restaurant 2.jpg" loading="lazy" class="card-img" alt="Preview of example website">
+                            <div class="card-body">
+                                <p class="card-title">Maison Lumiere</p>
+                                <p class="card-desc fs-sm">Portfolio website for photographer, designer, or visual artist to showcase their work</p>
+                                <button href="#" class="btn btn-sm btn-outline fs-sm" aria-label="Link to Visit Website">
+                                    Visit Website
+                                    <svg width="1rem" height="1rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 3V2.5H2.5V3H3ZM12.6464 13.3536C12.8417 13.5488 13.1583 13.5488 13.3536 13.3536C13.5488 13.1583 13.5488 12.8417 13.3536 12.6464L12.6464 13.3536ZM3.5 11V3H2.5V11H3.5ZM3 3.5H11V2.5H3V3.5ZM2.64645 3.35355L12.6464 13.3536L13.3536 12.6464L3.35355 2.64645L2.64645 3.35355Z" fill="currentColor"></path> <path d="M4 15V15C4 16.8692 4 17.8038 4.40192 18.5C4.66523 18.9561 5.04394 19.3348 5.5 19.5981C6.19615 20 7.13077 20 9 20H14C16.8284 20 18.2426 20 19.1213 19.1213C20 18.2426 20 16.8284 20 14V9C20 7.13077 20 6.19615 19.5981 5.5C19.3348 5.04394 18.9561 4.66523 18.5 4.40192C17.8038 4 16.8692 4 15 4V4" stroke="currentColor" stroke-linecap="round"></path> </g></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonial" class="testimonials bg-secondary">
             <div class="container">
                 <h2 class="title fs-h1">
                     <span>Testimonial</span>
@@ -100,15 +163,59 @@
                     </article>
                 </div>
             </div>
+            <div class="custom-shape-divider-bottom-1756269091">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+
+        <section id="fyi" class="bg-hero">
+            <div class="container">
+                <h2 class="fs-h1 has-subheading">Accessibility Matters</h2>
+                <p class="subheading">(and Can Save You from Lawsuits)</p>
+                <div class="flex-row md-col">
+                    <div class="flex-col fs-sm">
+                        <p class="fs-lg-sm">
+                            Did you know that in the US and EU, businesses can face legal action if their website isn't accessible to people with disabilities?
+                        </p>
+                        <p class="fs-lg-sm">
+                            making your website accessible isn't just about avoiding lawsuits, it also means :
+                            <ul class="fs-lg-sm">
+                                <li>
+                                    More people (including older visitors or those with disabilities) can use your site.
+                                </li>
+                                <li>
+                                    Better SEO (search engines reward well-structured, accessible content).
+                                </li>
+                                <li>
+                                    A stronger brand image of being inclusive and professional.
+                                </li>
+                            </ul>
+                            I always build with accessibility in mind, so your site is safer from legal risks and friendlier for everyone.
+                        </p>
+                    </div>
+                    <div class="flex-col fs-lg-xs">
+                        <figure>
+                            <img src="./assets/img/placeholder.png" alt="Placeholder Image">
+                            <figcaption class="fs-sm">Check your website at www.accessibilitychecker.org</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="faq">
+            <div class="custom-shape-divider-top-1756268948">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+            </div>
             <div class="container">
-                <h2>Frequently asked questions</h2>
-
+                <h2 class="fs-h1">Frequently asked questions</h2>
                 <div class="accordion">
-                    <div class="acc-item show" aria-label="Question 1">
-                        <button class="acc-head" aria-expanded="true" aria-controls="answer-1">
+                    <div class="acc-item" aria-label="Question 1">
+                        <button class="acc-head" aria-expanded="false" aria-controls="answer-1">
                             What kind of websites do you build?
                         </button>
                         <div id="answer-1" class="acc-content">
@@ -118,7 +225,7 @@
                         </div>
                     </div>
                     <div class="acc-item" aria-label="Question 2">
-                        <button class="acc-head" aria-expanded="true" aria-controls="answer-2">
+                        <button class="acc-head" aria-expanded="false" aria-controls="answer-2">
                             Do I need a subscription, or can I just pay once?
                         </button>
                         <div id="answer-2" class="acc-content">
@@ -136,7 +243,7 @@
                         </div>
                     </div>
                     <div class="acc-item" aria-label="Question 3">
-                        <button class="acc-head" aria-expanded="true" aria-controls="answer-3">
+                        <button class="acc-head" aria-expanded="false" aria-controls="answer-3">
                             How much does a website cost?
                         </button>
                         <div id="answer-3" class="acc-content">
@@ -146,7 +253,7 @@
                         </div>
                     </div>
                     <div class="acc-item" aria-label="Question 4">
-                        <button class="acc-head" aria-expanded="true" aria-controls="answer-4">
+                        <button class="acc-head" aria-expanded="false" aria-controls="answer-4">
                             How long will it take to get my website live?
                         </button>
                         <div id="answer-4" class="acc-content">
@@ -157,7 +264,7 @@
                         </div>
                     </div>
                     <div class="acc-item" aria-label="Question 5">
-                        <button class="acc-head" aria-expanded="true" aria-controls="answer-5">
+                        <button class="acc-head" aria-expanded="false" aria-controls="answer-5">
                             Will my website show up on Google?
                         </button>
                         <div id="answer-5" class="acc-content">
@@ -167,7 +274,7 @@
                         </div>
                     </div>
                     <div class="acc-item" aria-label="Question 6">
-                        <button class="acc-head" aria-expanded="true" aria-controls="answer-6">
+                        <button class="acc-head" aria-expanded="false" aria-controls="answer-6">
                             Do I need to know tech to update my site?
                         </button>
                         <div id="answer-6" class="acc-content">
@@ -177,7 +284,7 @@
                         </div>
                     </div>
                     <div class="acc-item" aria-label="Question 7">
-                        <button class="acc-head" aria-expanded="true" aria-controls="answer-7">
+                        <button class="acc-head" aria-expanded="false" aria-controls="answer-7">
                             What if I need help after the site is finished?
                         </button>
                         <div id="answer-7" class="acc-content">
@@ -195,7 +302,7 @@
                         </div>
                     </div>
                     <div class="acc-item" aria-label="Question 8">
-                        <button class="acc-head" aria-expanded="true" aria-controls="answer-8">
+                        <button class="acc-head" aria-expanded="false" aria-controls="answer-8">
                             Why not just use a DIY website builder?
                         </button>
                         <div id="answer-8" class="acc-content">
@@ -212,47 +319,41 @@
         </section>
 
         <section id="contact">
-            <div class="container">
-                <h2>Get Started</h2>
-                <p aria-label="Form info" class="form-info">please fill the required forms below and i'll reply to you as soon as possible</p>
+            <div class="container-md">
+                <h2 class="fs-h1">Ready to start?</h2>
+                <p>Please fill the form below and i'll reply to you as soon as possible.</p>
                 <div class="contact-form" role="Contact Form">
-                    <form action="">
-                        <label for="name">Hi, my name is </label>
-                        <input id="name" type="text" placeholder="Your name">.<br>
-
-                        <label for="email">You can reach me at </label>
-                        <input id="email" type="email" placeholder="Your email"><br>
-
-                        <label for="number">or by phone at </label>
-                        <input id="number" type="tel" placeholder="Phone number">.<br>
-
-                        <label for="service">I'm interested in </label>
-                        <select id="service" name="service">
-                            <option value="" disabled selected>Choose a service</option>
-                        </select><br>
-
-                        <label for="business-type"> for my </label>
-                        <input type="text" id="business-type" placeholder="Your business">.<br>
-
-                        <label for="details">Here are some details: </label><br>
-                        <textarea id="details" placeholder="Tell me more..." maxlength="1200"></textarea><br>
-
-                        That's all, thank you!<br>
-                        <button type="submit" class="btn btn-hero">Get a Quote</button>
-                    </form>
+                    <div id="form-dialog">
+                        <form id="contactForm" method="post">
+                            <div class="input-row">
+                                <input id="website" type="text" placeholder="Your Website" name="website" maxlength="100">
+                                <label for="name">Name</label>
+                                <input id="name" type="text" placeholder="Your name" name="name" maxlength="100" required>
+                            </div>
+                            <div class="input-row">
+                                <label for="email">Email</label>
+                                <input id="email" type="email" name="email" maxlength="100" required placeholder="Your email">
+                            </div>
+                            <div class="input-row">  
+                                <label for="phone">Phone</label>
+                                <input id="phone" type="tel" name="phone" maxlength="50" required placeholder="Phone number">
+                            </div>
+                            <div class="input-row">
+                                <label for="details">Message</label>
+                                <textarea id="details" aria-label="Your Message" name="details" required placeholder="Tell me more..." maxlength="1200"></textarea>
+                            </div>
+                            <div class="input-row">
+                                <button type="submit" class="btn btn-hero">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-   <footer class="site-footer" aria-label="Site Footer">
-        <div class="site-info">
-            &copy; <?= date("Y") ?> - Rawingtech
-        </div>
-   </footer>
+   <?php get_footer() ?>
 
-   <script src="./assets/js/jquery-3.7.1.min.js" defer></script> 
-   <script src="./assets/js/navigation.js" defer></script>
-   <script src="./assets/js/script.js" defer></script>  
+   <script src="./assets/js/contactform.js" defer></script>  
 </body>
 </html>

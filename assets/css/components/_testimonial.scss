@@ -1,7 +1,4 @@
 .testimonials{
-    background-color: $color-tertiary;
-    color:$text-primary;
-
     .title{
         width: fit-content;
         margin: 1rem auto;
@@ -18,6 +15,7 @@
         }
     }
     .card-container{
+        margin-bottom:2rem;
         display:flex;
         justify-content: center;
 

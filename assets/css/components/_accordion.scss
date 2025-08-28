@@ -1,6 +1,6 @@
 .accordion{
     .acc-item{
-        border-bottom:1px solid $br-color;
+        border-bottom:1px solid $text-primary;
         .acc-head{
             display:flex;
             background:none;
@@ -38,7 +38,7 @@
             }
             .acc-content{
                 max-height:500px;
-                padding-bottom:0.5rem;
+                padding-bottom:1rem;
             }
         }
     }

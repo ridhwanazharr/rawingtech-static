@@ -1,0 +1,142 @@
+<?php include "functions.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Rawingtech</title>
+    <link rel="preload" href="./assets/css/style.css" as="style" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Meta Properties---->
+    <meta property="og:title" content="Rawingtech - Web Development for Small Business">
+    <meta property="og:description" content="We build fast, accessible, and SEO-optimized websites for small businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rawingtech.com/">
+    <meta property="og:image" content="/assets/images/preview.png">
+</head>
+<body>
+   <?php get_header() ?>
+
+   <main class="page-wrapper">
+        <section id="tos">
+            <div class="container-md">
+            <h1>Terms of Service</h1>
+            <p><strong>Last updated:</strong> [Insert Date]</p>
+            <p>Welcome to <strong>Rawingtech</strong> (the “Website”). By accessing or using this Website and my services, you agree to the following Terms of Service.</p>
+            <ul>
+            <li>
+                <strong>1. General</strong>
+                <ul>
+                <li>I provide freelance web development and design services as an independent contractor.</li>
+                <li>I am not a registered business entity; all services are provided under my personal freelance capacity.</li>
+                <li>By engaging my services, you confirm that you are legally able to enter into a binding agreement.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>2. Services</strong>
+                <ul>
+                <li>Services may include website design, website development, maintenance, and related digital solutions as agreed in writing.</li>
+                <li>Scope of work will be defined in a written agreement, invoice, or project proposal.</li>
+                <li>Any work outside the agreed scope may be subject to additional fees.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>3. Rejection of Illegal or Harmful Projects</strong>
+                <ul>
+                <li>I reserve the right to refuse or cancel any project that involves:</li>
+                <ul>
+                    <li>Illegal activities (fraud, scams, counterfeit sales).</li>
+                    <li>Adult content, pornography, or sexually explicit material.</li>
+                    <li>Gambling, betting, or related industries (unless fully licensed and legal in the client’s jurisdiction).</li>
+                    <li>Hate speech, discrimination, or content promoting violence.</li>
+                </ul>
+                <li>If a project is canceled for these reasons, any deposits paid will not be refunded.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>4. Payment</strong>
+                <ul>
+                <li>All payments must be made via the payment method specified in the invoice (typically PayPal).</li>
+                <li>A deposit is required before work begins. Remaining payments are due according to the agreed milestones.</li>
+                <li>Work will not be delivered until the corresponding payment has been received in full.</li>
+                <li>All payments are non-refundable once work has begun, except in cases where I am unable to complete the project.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>5. Revisions</strong>
+                <ul>
+                <li>Projects include a limited number of revisions as specified in the proposal.</li>
+                <li>Additional revisions beyond this limit may be billed separately.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>6. Client Responsibilities</strong>
+                <ul>
+                <li>Clients must provide all required content (text, images, branding) in a timely manner.</li>
+                <li>Delays in providing content may affect the project timeline.</li>
+                <li>Clients are responsible for securing proper rights to any content they provide.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>7. GDPR and Legal Compliance</strong>
+                <ul>
+                <li>Clients operating in the EU/UK or serving EU/UK users are responsible for providing their own GDPR-compliant documents (e.g., Privacy Policy, Cookie Policy, Terms).</li>
+                <li>I may add these documents to the client’s website if provided, but I do not create or guarantee compliance with GDPR or other regional regulations.</li>
+                <li>Clients are solely responsible for ensuring their website complies with local laws and regulations.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>8. Delivery and Ownership</strong>
+                <ul>
+                <li>Upon full payment, ownership of the final website design and code (except third-party materials, plugins, or frameworks) will be transferred to the client.</li>
+                <li>I may showcase completed work in my portfolio unless otherwise agreed in writing.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>9. Liability</strong>
+                <ul>
+                <li>I make reasonable efforts to deliver error-free work, but I cannot guarantee that the website will be free of bugs or issues.</li>
+                <li>I am not liable for any indirect, incidental, or consequential damages resulting from the use of the website.</li>
+                <li>Clients are responsible for ongoing maintenance and security of their websites unless a maintenance plan is agreed upon.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>10. Termination</strong>
+                <ul>
+                <li>Either party may terminate the project if the other party breaches this agreement.</li>
+                <li>In the event of termination, the client will be invoiced for all work completed up to that point.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>11. Governing Law</strong>
+                <ul>
+                <li>These Terms are governed by the laws of <strong>Indonesia</strong>, where I operate as a freelancer.</li>
+                <li>Any disputes will be resolved through good faith negotiation before considering legal action.</li>
+                </ul>
+            </li>
+
+            <li>
+                <strong>12. Contact</strong>
+                <ul>
+                <li>For questions regarding these Terms of Service, you may contact me at: 📧 [Your Email Address]</li>
+                </ul>
+            </li>
+            </ul>
+        </section>
+    </div>
+    </main>
+
+   <?php get_footer() ?>
+</body>
+</html>

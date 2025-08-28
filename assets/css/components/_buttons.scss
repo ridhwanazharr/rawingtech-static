@@ -1,0 +1,42 @@
+.btn-group{
+    display:flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+}
+
+.btn{
+    font-size:inherit;
+    padding:0.5rem 1rem;
+    border-radius:12px;
+    text-decoration: none;
+    transition:$transition-color;
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+}
+
+.btn-sm{
+    padding:0.25rem 0.5rem;
+}
+
+.btn-hero{
+    background-color: $color-accent-2;
+    color:$text-invert;
+    border:none;
+
+    &:hover{
+        background: #6f42b8;
+        color:$text-invert;
+    }
+}
+
+.btn-outline{
+    background-color:transparent;
+    color:$text-primary;
+    border:1px solid $text-primary;
+
+    &:hover{
+        background-color:$color-invert;
+        color:$text-invert;
+    }
+}
