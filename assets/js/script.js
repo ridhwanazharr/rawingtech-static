@@ -1,25 +1,14 @@
-//Accordions
-
 document.addEventListener("DOMContentLoaded", function () {
-  const accordions = document.querySelectorAll(".accordion");
+  document.querySelectorAll(".accordion").forEach(accordion => {
+    accordion.addEventListener("click", function(e) {
+      const head = e.target.closest(".acc-head");
+      if (!head) return;
+      const item = head.closest(".acc-item");
 
-  accordions.forEach(accordion => {
-    const heads = accordion.querySelectorAll(".acc-head");
-
-    heads.forEach(head => {
-      head.addEventListener("click", function () {
-        const item = this.closest(".acc-item");
-
-        // Only remove "show" from items inside this accordion
-        accordion.querySelectorAll(".acc-item").forEach(el => {
-          if (el !== item) {
-            el.classList.remove("show");
-          }
-        });
-
-        // Toggle current item
-        item.classList.toggle("show");
+      accordion.querySelectorAll(".acc-item.show").forEach(el => {
+        if (el !== item) el.classList.remove("show");
       });
+      item.classList.toggle("show");
     });
   });
 });

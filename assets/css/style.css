@@ -157,7 +157,7 @@ select:-webkit-autofill {
 }
 
 .portfolio-card {
-  width: auto;
+  width: 100%;
   border-radius: 12px;
   border: 1px solid #808080;
   overflow: hidden;
