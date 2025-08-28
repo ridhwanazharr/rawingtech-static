@@ -1,4 +1,3 @@
-<?php include "functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,15 +7,51 @@
     <link rel="preload" href="./assets/css/style.css" as="style" />
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "_Hc9F-vTXZ9nld48U",
+            });
+        })();
+    </script>
+
     <!--Meta Properties---->
-    <meta property="og:title" content="Rawingtech - Web Development for Small Business">
+    <meta property="og:title" content="Rawingtech - Web Designer for Small Business">
     <meta property="og:description" content="We build fast, accessible, and SEO-optimized websites for small businesses.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://rawingtech.com/">
-    <meta property="og:image" content="/assets/images/preview.png">
+    <meta property="og:image" content="/assets/images/placeholder.png">
 </head>
 <body>
-   <?php get_header() ?>
+   <header class="site-header" aria-label="Main navigation">
+        <div class="header-container">
+            <div class="site-branding">
+                <a href="./" class="text-link" aria-label="Back to Homepage">
+                    <h2>Rawingtech</h2>
+                </a>    
+            </div>
+            <nav class="navigation-container">
+                <button class="menu-btn" id="nav-btn" aria-label="Menu Toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+                </button>
+                <div class="menu-container" id="menu-container">
+                    <ul class="nav-link-list">
+                        <li>
+                            <a href="./#service" class="text-link nav-link">About</a>
+                        </li>
+                        <li>
+                            <a href="./#projects" class="text-link nav-link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="./#contact" class="text-link nav-link">Contact</a>
+                        </li>
+                        <a href="./#contact" class="btn btn-hero nav-link">Get Started</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
 
    <main class="page-wrapper">
         <section id="hero" class="hero-section">
@@ -24,13 +59,13 @@
                 <div class="hero-caption">
                     <h1>Websites made simple for your small business.</h1>
                     <p>I help local service, photographer, cafés, and small brands get online with fast, clean websites that just work</p>
-                    <div class="btn-group">
-                        <button aria-label="Contact" class="btn btn-hero">
+                    <div class="btn-group mt-1">
+                        <a role="button" href="./#contact" class="btn btn-hero">
                             Work with Me
-                        </button>
-                        <button class="btn btn-outline">
+                        </a>
+                        <a role="button" href="./#projects" class="btn btn-outline">
                             See Portfolio
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -89,14 +124,16 @@
 
         <section id="projects" class="bg-secondary">
             <div class="container">
-                <h2 class="fs-h1">Portfolio</h2>
-                <p>Some of example of my works.</p>
+                <div class="section-heading">
+                    <h2 class="fs-h1">Work Highlights</h2>
+                    <p>Here are some demo projects I built to show what I can create for businesses like yours.</p>
+                </div>
                 <div class="flex-row md-col">
                     <div class="flex-col">
                         <div class="portfolio-card">
-                            <img src="./assets/img/Thumbnail Restaurant 2.jpg" loading="lazy" class="card-img" alt="Preview of example website">
+                            <img src="./assets/img/placeholder.png" loading="lazy" class="card-img" alt="Preview of example website">
                             <div class="card-body">
-                                <p class="card-title">Maison Lumiere</p>
+                                <p class="card-title">Rawingstudio</p>
                                 <p class="card-desc fs-sm">Portfolio website for photographer, designer, or visual artist to showcase their work</p>
                                 <button href="#" class="btn btn-sm btn-outline fs-sm" aria-label="Link to Visit Website">
                                     Visit Website
@@ -107,10 +144,10 @@
                     </div>
                     <div class="flex-col">
                         <div class="portfolio-card">
-                            <img src="./assets/img/Thumbnail Restaurant 2.jpg" loading="lazy" class="card-img" alt="Preview of example website">
+                            <img src="./assets/img/placeholder.png" loading="lazy" class="card-img" alt="Preview of example website">
                             <div class="card-body">
                                 <p class="card-title">Maison Lumiere</p>
-                                <p class="card-desc fs-sm">Portfolio website for photographer, designer, or visual artist to showcase their work</p>
+                                <p class="card-desc fs-sm">Restaurant website for fine dining, with Google Maps and Contacts</p>
                                 <button href="#" class="btn btn-sm btn-outline fs-sm" aria-label="Link to Visit Website">
                                     Visit Website
                                     <svg width="1rem" height="1rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 3V2.5H2.5V3H3ZM12.6464 13.3536C12.8417 13.5488 13.1583 13.5488 13.3536 13.3536C13.5488 13.1583 13.5488 12.8417 13.3536 12.6464L12.6464 13.3536ZM3.5 11V3H2.5V11H3.5ZM3 3.5H11V2.5H3V3.5ZM2.64645 3.35355L12.6464 13.3536L13.3536 12.6464L3.35355 2.64645L2.64645 3.35355Z" fill="currentColor"></path> <path d="M4 15V15C4 16.8692 4 17.8038 4.40192 18.5C4.66523 18.9561 5.04394 19.3348 5.5 19.5981C6.19615 20 7.13077 20 9 20H14C16.8284 20 18.2426 20 19.1213 19.1213C20 18.2426 20 16.8284 20 14V9C20 7.13077 20 6.19615 19.5981 5.5C19.3348 5.04394 18.9561 4.66523 18.5 4.40192C17.8038 4 16.8692 4 15 4V4" stroke="currentColor" stroke-linecap="round"></path> </g></svg>
@@ -122,7 +159,7 @@
                 <div class="flex-row md-col">
                     <div class="flex-col">
                         <div class="portfolio-card">
-                            <img src="./assets/img/Thumbnail Restaurant 2.jpg" loading="lazy" class="card-img" alt="Preview of example website">
+                            <img src="./assets/img/placeholder.png" loading="lazy" class="card-img" alt="Preview of example website">
                             <div class="card-body">
                                 <p class="card-title">Maison Lumiere</p>
                                 <p class="card-desc fs-sm">Portfolio website for photographer, designer, or visual artist to showcase their work</p>
@@ -135,7 +172,7 @@
                     </div>
                     <div class="flex-col">
                         <div class="portfolio-card">
-                            <img src="./assets/img/Thumbnail Restaurant 2.jpg" loading="lazy" class="card-img" alt="Preview of example website">
+                            <img src="./assets/img/placeholder.png" loading="lazy" class="card-img" alt="Preview of example website">
                             <div class="card-body">
                                 <p class="card-title">Maison Lumiere</p>
                                 <p class="card-desc fs-sm">Portfolio website for photographer, designer, or visual artist to showcase their work</p>
@@ -172,8 +209,10 @@
 
         <section id="fyi" class="bg-hero">
             <div class="container">
-                <h2 class="fs-h1 has-subheading">Accessibility Matters</h2>
-                <p class="subheading">(and Can Save You from Lawsuits)</p>
+                <div class="section-heading">
+                    <h2 class="fs-h1">Accessibility Matters</h2>
+                    <p class="subheading">(and Can Save You from Lawsuits)</p>
+                </div>
                 <div class="flex-row md-col">
                     <div class="flex-col fs-sm">
                         <p class="fs-lg-sm">
@@ -320,8 +359,10 @@
 
         <section id="contact">
             <div class="container-md">
-                <h2 class="fs-h1">Ready to start?</h2>
-                <p>Please fill the form below and i'll reply to you as soon as possible.</p>
+                <div class="section-heading">
+                    <h2 class="fs-h1">Ready to start?</h2>
+                    <p>Please fill the form below and i'll reply to you as soon as possible.</p>
+                </div>
                 <div class="contact-form" role="Contact Form">
                     <div id="form-dialog">
                         <form id="contactForm" method="post">
@@ -352,8 +393,17 @@
         </section>
     </main>
 
-   <?php get_footer() ?>
+   <footer class="site-footer bg-tertiary" aria-label="Site Footer">
+        <div class="site-info">
+            &copy; <script>document.write(new Date().getFullYear())</script> - Rawingtech | <a href="./terms-of-service" class="text-link" aria-label="Privacy Policy Page">Terms of Service</a> | <a href="./privacy-policy" class="text-link" aria-label="Privacy Policy Page">Privacy Policy</a>
+        </div>
+    </footer>
 
-   <script src="./assets/js/contactform.js" defer></script>  
+    <script src="./assets/js/jquery-3.7.1.min.js" defer></script> 
+    <script src="./assets/js/navigation.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
+
+    <!---Depedency---->
+    <script src="./assets/js/contactform.js" defer></script>  
 </body>
 </html>

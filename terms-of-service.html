@@ -9,20 +9,47 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!--Meta Properties---->
-    <meta property="og:title" content="Rawingtech - Web Development for Small Business">
+    <meta property="og:title" content="Rawingtech - Web Designer for Small Business">
     <meta property="og:description" content="We build fast, accessible, and SEO-optimized websites for small businesses.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://rawingtech.com/">
-    <meta property="og:image" content="/assets/images/preview.png">
+    <meta property="og:image" content="/assets/images/placeholder.png">
 </head>
 <body>
-   <?php get_header() ?>
+   <header class="site-header" aria-label="Main navigation">
+        <div class="header-container">
+            <div class="site-branding">
+                <a href="./" class="text-link" aria-label="Back to Homepage">
+                    <h2>Rawingtech</h2>
+                </a>    
+            </div>
+            <nav class="navigation-container">
+                <button class="menu-btn" id="nav-btn" aria-label="Menu Toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+                </button>
+                <div class="menu-container" id="menu-container">
+                    <ul class="nav-link-list">
+                        <li>
+                            <a href="./#service" class="text-link nav-link">About</a>
+                        </li>
+                        <li>
+                            <a href="./#projects" class="text-link nav-link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="./#contact" class="text-link nav-link">Contact</a>
+                        </li>
+                        <a href="./#contact" class="btn btn-hero nav-link">Get Started</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
 
    <main class="page-wrapper">
         <section id="tos">
-            <div class="container-md">
+            <div class="container-md fs-sm">
             <h1>Terms of Service</h1>
-            <p><strong>Last updated:</strong> [Insert Date]</p>
+            <p><strong>Last updated:</strong> 28 August 2025</p>
             <p>Welcome to <strong>Rawingtech</strong> (the “Website”). By accessing or using this Website and my services, you agree to the following Terms of Service.</p>
             <ul>
             <li>
@@ -50,7 +77,7 @@
                 <ul>
                     <li>Illegal activities (fraud, scams, counterfeit sales).</li>
                     <li>Adult content, pornography, or sexually explicit material.</li>
-                    <li>Gambling, betting, or related industries (unless fully licensed and legal in the client’s jurisdiction).</li>
+                    <li>Gambling, betting, or related industries.</li>
                     <li>Hate speech, discrimination, or content promoting violence.</li>
                 </ul>
                 <li>If a project is canceled for these reasons, any deposits paid will not be refunded.</li>
@@ -129,7 +156,7 @@
             <li>
                 <strong>12. Contact</strong>
                 <ul>
-                <li>For questions regarding these Terms of Service, you may contact me at: 📧 [Your Email Address]</li>
+                <li>For questions regarding these Terms of Service, you may contact me at: rawingtech@gmail.com</li>
                 </ul>
             </li>
             </ul>
@@ -137,6 +164,13 @@
     </div>
     </main>
 
-   <?php get_footer() ?>
+   <footer class="site-footer bg-tertiary" aria-label="Site Footer">
+        <div class="site-info">
+            &copy; <script>document.write(new Date().getFullYear())</script> - Rawingtech | <a href="./terms-of-service" class="text-link" aria-label="Privacy Policy Page">Terms of Service</a> | <a href="./privacy-policy" class="text-link" aria-label="Privacy Policy Page">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="./assets/js/navigation.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
 </body>
 </html>

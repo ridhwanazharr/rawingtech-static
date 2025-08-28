@@ -121,6 +121,30 @@ select:-webkit-autofill {
   background-color: #fcef36;
 }
 
+.mt-1 {
+  margin-top: 1rem !important;
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+.mt-3 {
+  margin-top: 3rem !important;
+}
+
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 3rem !important;
+}
+
 .text-link {
   text-decoration: none;
   color: inherit;
@@ -552,6 +576,16 @@ section {
   min-height: 50vh;
   padding: 2rem 1rem;
   position: relative;
+}
+section .section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+section .section-heading p, section .section-heading h1, section .section-heading h2, section .section-heading h3 {
+  margin: 0;
 }
 
 .container {

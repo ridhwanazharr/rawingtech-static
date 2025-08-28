@@ -1,26 +1,37 @@
-$(document).ready(function () {
-    $("#contactForm").on("submit", function (e) {
-        e.preventDefault(); // prevent reload
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
 
-        var form = $(this);
-        var formData = form.serialize(); // serialize input values
-        var dialog = $("#form-dialog");
+    const form = this;
+    const btn = form.querySelector("button[type=submit]");
+    btn.disabled = true;
+    btn.innerText = "Sending...";
 
-        dialog.html(`<div class="message-container"><div class="loading-spinner"></div></div>`);
+    // Honeypot check
+    if (form.website.value) {
+        return;
+    }
 
-        setTimeout(function() { 
-            $.ajax({
-                url: "submit.php",
-                type: "POST",
-                data: formData,
-                success: function (response) {
-                    dialog.html(`${response}`);
-                    form[0].reset(); // reset form
-                },
-                error: function () {
-                    dialog.html(`<div class="alert error">Something went wrong. Try again.</div>`);
-                }
-            });
-        }, 5000);
+    emailjs.sendForm("service_1hgbjkr", "template_68ac4om", {
+        name: this.name.value,
+        email: this.email.value,
+        message: this.message.value,
+        time_sent: new Date().toLocaleString()
+    })
+    .then(function() {
+        form.innerHTML = `
+            <div class="message-container">
+                <div class="alert success">
+                    Thank you <strong>${form.name.value}</strong>! I'll reply to your message as soon as possible.
+                </div>
+            </div>`;
+    }, function(error) {
+        console.error("Failed...", error);
+        form.innerHTML = `
+            <div class="message-container">
+                <div class="alert error">
+                    Message not sent, please try again later.
+                </div>
+            </div>`;
+        // Re-enable button in case of retry
     });
 });
