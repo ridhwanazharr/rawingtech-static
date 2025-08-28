@@ -6,9 +6,6 @@
     <title>Rawingtech</title>
     <link rel="preload" href="./assets/css/style.css" as="style" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
     <script type="text/javascript" defer>
@@ -77,7 +74,10 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="./assets/img/laptop-mockup.avif" fetchpriority=high alt="Website Example on Laptop and Mobile Device">
+                    <img src="./assets/img/laptop-mockup-1000.avif"
+                    srcset="./assets/img/laptop-mockup-1000.avif 1000w, ./assets/img/laptop-mockup-600.avif 600w, ./assets/img/laptop-mockup-400.avif 400w"
+                    sizes="(max-width: 600px) 400px, (max-width: 900px) 600px, 1000px"
+                    fetchpriority=high alt="Website Example on Laptop and Mobile Device">
                 </div>
             </div>
             <div class="custom-shape-divider-bottom-1755971211">
